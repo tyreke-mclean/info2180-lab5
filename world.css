@@ -1,1 +1,29 @@
 /* Add your own styles */
+
+header{
+    background-image: url("theworld.png");
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: left;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 100px;
+    
+}
+header h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+label{
+    color: white;
+}
+main{
+    margin-top: 20px;
+}
+body{
+    background-color: black;
+}
