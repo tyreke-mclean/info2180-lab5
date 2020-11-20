@@ -1,7 +1,8 @@
 /* Add your own styles */
 
 header{
-    background-image: url("wrld.gif");    background-color:  rgba(128, 128, 128, 0.342);
+    background-image: url("wrld.gif");    
+    background-color:  rgba(128, 128, 128, 0.342);
     background-repeat: no-repeat;
     background-size: 200px;
     background-position: left;
@@ -13,12 +14,34 @@ header{
     padding-right: 100px;
     
 }
-button{
+
+#lookup{
+    font-size: 15px;
     background-color: rgba(128, 128, 128, 0.486);
     color: white;
-    height: 30px;
+    height: 40px;
+    margin-right: 10px;
     width: 75px;
-}  
+    max-width: 70%;
+} 
+
+#lookupCities{
+    font-size: 15px;
+    background-color: white;
+    color:black;
+    height: 40px;
+    
+    width: 75px;
+    max-width: 70%;
+}
+#country{
+    height: 40px;
+    width: 700px;
+    max-width: 70%;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: rgba(245, 245, 245, 0.877);
+}
 header h1{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -26,14 +49,48 @@ header h1{
 }
 label{
     color: white;
+    padding-top: 5px;
+    font-size: 20px;
 }
 main{
+    
     margin-top: 20px;
-    align-content: center;
+   
     padding-left: 200px;
+    padding-right: 100px;    
 
 }
+#controls{
+    display: flex;
+    align-content: center;
+    margin-bottom: 10px;
+}
+
 body{
     background-color: rgb(0, 0, 0);
 
+}
+h3{
+    color: white;
+}
+#result{
+    color: white;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+p{
+    color: white;
+}
+
+th {
+  padding: 5px;
+  text-align: center;
+  border: 1px solid white;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid white;
 }

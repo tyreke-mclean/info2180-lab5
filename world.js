@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function(){
         }
           
       }
-      xmlhttpreq.open("GET","http://localhost/info2180-lab5/world.php?country="+(document.getElementById("country").value)+"city=cities",true);;
+      xmlhttpreq.open("GET","http://localhost/info2180-lab5/world.php?country="+(document.getElementById("country").value)+"context=cities",true);;
         xmlhttpreq.send();
 
   });
